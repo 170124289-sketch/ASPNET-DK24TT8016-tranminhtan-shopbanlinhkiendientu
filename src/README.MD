@@ -1,12 +1,16 @@
 # ĐỒ ÁN: Xây dựng Website bán linh kiện điện tử.
 
 ## 1. Thông tin sinh viên
-* **Họ và tên:** Nguyễn Hoàng Giang
-* **Số điện thoại:** 0965158069
-* **Email** hoanggiang395@gmail.com
-* **Mã số sinh viên:** 170124643
-* **Lớp:** DK24TTC6
-* **Giảng viên hướng dẫn:** Thầy Đoàn Phước Miền
+* **Họ và tên:** Trần Minh Tân
+* **Số điện thoại:** 0932612048
+* **Email** 170124289@rdi.edu.vn
+* **Mã số sinh viên:** 170124289
+* **Họ và tên:** Nguyễn Thanh Thuận
+* **Số điện thoại:** 0986562713
+* **Email** 170124189@rdi.edu.vn
+* **Mã số sinh viên:** 170124189
+* **Lớp:** DK24TT8016
+* **Giảng viên hướng dẫn:** TS. Đoàn Phước Miền
 
 ## 2. Giới thiệu đồ án
 
