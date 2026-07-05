@@ -50,5 +50,30 @@ Hệ thống được phát triển theo mô hình chuẩn công nghiệp, đả
 ### Bước 1: Clone dự án về máy tính
 Mở terminal hoặc Git Bash và chạy lệnh:
 ```bash
-git clone [https://github.com/170124289-sketch/ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu.git](https://github.com/170124289-sketch/ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu.git)
-cd ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu
+### Bước 2: Cấu hình và Khởi tạo Cơ sở dữ liệu
+
+1. Mở phần mềm **SSMS (SQL Server Management Studio)** và kết nối vào Server của bạn (thường là `.\SQLEXPRESS`).
+2. Tạo một Database mới tên là `ShopBanLinhKien` hoặc tùy chọn.
+3. Tìm file script SQL đính kèm trong thư mục source code dự án (thường nằm ở thư mục `Database` hoặc thư mục gốc có đuôi `.sql`).
+4. Mở file script bằng SSMS, nhấn **Execute (F5)** để tự động khởi tạo cấu trúc 12 bảng, cấu hình khóa ngoại và nạp dữ liệu mẫu ban đầu.
+
+### Bước 3: Cấu hình Connection String trong Code
+
+1. Mở thư mục dự án bằng **Visual Studio 2022** bằng cách double-click vào file `.sln`.
+2. Tìm đến tệp cấu hình cấu trúc dự án (như `appsettings.json` hoặc tệp `Web.config` tùy phiên bản framework).
+3. Chỉnh sửa lại chuỗi kết nối cơ sở dữ liệu (`ConnectionString`) cho khớp với cấu hình máy tính của bạn:
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=.\\SQLEXPRESS;Database=ShopBanLinhKien;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+}
+
+```
+
+
+
+### Bước 4: Chạy dự án
+
+1. Trong Visual Studio, nhấn nút **Build** (hoặc tổ hợp phím `Ctrl + Shift + B`) để trình biên dịch tải các package NuGet cần thiết và kiểm tra lỗi.
+2. Nhấn nút **Start / IIS Express** (hoặc phím `F5`) để chạy dự án. Trình duyệt web sẽ tự động mở lên kèm theo giao diện trang chủ của Website Bán Linh Kiện Điện Tử.
+
+---
