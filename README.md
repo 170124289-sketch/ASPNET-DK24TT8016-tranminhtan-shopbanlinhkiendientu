@@ -68,9 +68,6 @@ Mở terminal hoặc Git Bash và chạy lệnh:
 }
 
 ```
-
-
-
 ### Bước 4: Chạy dự án
 
 1. Trong Visual Studio, nhấn nút **Build** (hoặc tổ hợp phím `Ctrl + Shift + B`) để trình biên dịch tải các package NuGet cần thiết và kiểm tra lỗi.
