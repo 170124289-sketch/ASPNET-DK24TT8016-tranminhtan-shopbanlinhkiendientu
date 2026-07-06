@@ -7,7 +7,7 @@
 ## 👥 1. Giới thiệu Thành viên & Giảng viên hướng dẫn
 
 ### Giảng viên hướng dẫn
-* **TS. Đoàn Phước Miền** – Người trực tiếp dẫn dắt, định hướng chuyên môn và tư duy xây dựng hệ thống bài bản cho nhóm.
+* **TS. Đoàn Phước Miền** 
 
 ### Sinh viên thực hiện (Lớp: DK24TT8016)
 | Họ và Tên | Mã số sinh viên (MSSV) | Vai trò / Nhiệm vụ trong dự án |
@@ -50,6 +50,8 @@ Hệ thống được phát triển theo mô hình chuẩn công nghiệp, đả
 ### Bước 1: Clone dự án về máy tính
 Mở terminal hoặc Git Bash và chạy lệnh:
 ```bash
+git clone [https://github.com/170124289-sketch/ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu.git](https://github.com/170124289-sketch/ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu.git)
+cd ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu
 ### Bước 2: Cấu hình và Khởi tạo Cơ sở dữ liệu
 
 1. Mở phần mềm **SSMS (SQL Server Management Studio)** và kết nối vào Server của bạn (thường là `.\SQLEXPRESS`).
@@ -68,9 +70,9 @@ Mở terminal hoặc Git Bash và chạy lệnh:
 }
 
 ```
+
 ### Bước 4: Chạy dự án
 
 1. Trong Visual Studio, nhấn nút **Build** (hoặc tổ hợp phím `Ctrl + Shift + B`) để trình biên dịch tải các package NuGet cần thiết và kiểm tra lỗi.
 2. Nhấn nút **Start / IIS Express** (hoặc phím `F5`) để chạy dự án. Trình duyệt web sẽ tự động mở lên kèm theo giao diện trang chủ của Website Bán Linh Kiện Điện Tử.
 
----
