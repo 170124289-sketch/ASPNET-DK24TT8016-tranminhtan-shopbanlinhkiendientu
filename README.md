@@ -49,7 +49,8 @@ Hệ thống được phát triển theo mô hình chuẩn công nghiệp, đả
 
 ### Bước 1: Clone dự án về máy tính
 Mở terminal hoặc Git Bash và chạy lệnh:
-```bash
+
+bash
 git clone [https://github.com/170124289-sketch/ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu.git](https://github.com/170124289-sketch/ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu.git)
 cd ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu
 ### Bước 2: Cấu hình và Khởi tạo Cơ sở dữ liệu
@@ -64,12 +65,11 @@ cd ASPNET-DK24TT8016-tranminhtan-shopbanlinhkiendientu
 1. Mở thư mục dự án bằng **Visual Studio 2022** bằng cách double-click vào file `.sln`.
 2. Tìm đến tệp cấu hình cấu trúc dự án (như `appsettings.json` hoặc tệp `Web.config` tùy phiên bản framework).
 3. Chỉnh sửa lại chuỗi kết nối cơ sở dữ liệu (`ConnectionString`) cho khớp với cấu hình máy tính của bạn:
-```json
+json
 "ConnectionStrings": {
   "DefaultConnection": "Server=.\\SQLEXPRESS;Database=ShopBanLinhKien;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
 }
 
-```
 
 ### Bước 4: Chạy dự án
 
