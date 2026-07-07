@@ -1,4 +1,4 @@
-# 🛒 WEBSITE BÁN LINH KIỆN ĐIỆN TỬ VÀ GAMING GEAR
+# 🛒 WEBSITE BÁN LINH KIỆN ĐIỆN TỬ GAMING GEAR
 > **Đồ án môn học:** Chuyên đề ASP.NET (Học kỳ III, Năm học 2025-2026)  
 > **Trường:** Đại học Trà Vinh – Trường Kỹ thuật và Công nghệ – Khoa Công nghệ Thông tin.
 
